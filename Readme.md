@@ -67,7 +67,7 @@ This is a robust and scalable Node.js API project with the following key feature
 ---
 
 ## 📂 Project Structure
-
+```bash
 ├── src/
 │ ├── config/
 │ ├── controllers/
@@ -82,7 +82,7 @@ This is a robust and scalable Node.js API project with the following key feature
 ├── .env
 ├── server.js
 ├── README.md
-
+```
 ---
 
 ## 🚧 Getting Started
