@@ -35,7 +35,7 @@ exports.signup = async (req, res) => {
     logger.info(`User signup admin: ${email}`);
     // Send code via email
     await transporter.sendMail({
-      from: `support@my.wealthbudgetplanner.com`,
+      from: process.env.EMAIL_FROM,
       to: user.email,
       subject: "Verify your email",
       html: `<p>Your verification code is: <strong>${code}</strong>. It expires in 10 minutes.</p>`,
